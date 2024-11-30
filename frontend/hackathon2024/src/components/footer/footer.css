@@ -1,0 +1,14 @@
+.Footer {
+    background-color: rgba(0, 30, 63, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.Footer a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+}

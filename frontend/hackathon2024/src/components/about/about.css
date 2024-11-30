@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(130, 210, 253);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+
+    font-size: 150px;
+    min-width: 40%;
+}
+
+.text {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(212, 248, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    height: 200px;
+}
+
+.image_format {
+    max-width: 80%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.image1 {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(130, 210, 253);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    margin-left: 20px;
+    max-width: 50%;
+
+    font-size: 150px;
+    min-width: 40%;
+}
+
+.text1 {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(212, 248, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    height: 200px;
+}
+
+.image_format1 {
+    max-width: 70%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.socialMedia {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+    width: 25%;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 150px;
+    text-align: center;
+}
+
+.socialMedia:hover{
+    cursor: pointer;
+    filter: brightness(0.7);
+}
+
+.container a{
+    color: rgb(0, 96, 180);
+}
+
+a.social{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
