@@ -1,4 +1,5 @@
 import React from "react";
+import './quizSolver.css';
 
 function QuizSolver(props){
     return(

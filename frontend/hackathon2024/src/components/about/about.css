@@ -6,7 +6,7 @@
 
 .image {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    background-color: rgb(130, 210, 253);
+    background-color: rgba(255, 255, 255, 0.75);
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -22,12 +22,12 @@
 
 .text {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    background-color: rgb(212, 248, 255);
+    background-color: rgba(255, 255, 255, 0.6);
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 16px;
     text-align: justify;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     width: 50%;
     height: 200px;
@@ -42,10 +42,10 @@
 
 .image1 {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    background-color: rgb(130, 210, 253);
+    background-color: rgba(255, 255, 255, 0.75);
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     height: 200px;
     display: flex;
@@ -59,12 +59,12 @@
 
 .text1 {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    background-color: rgb(212, 248, 255);
+    background-color: rgba(255, 255, 255, 0.6);
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 16px;
     text-align: justify;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     width: 50%;
     height: 200px;

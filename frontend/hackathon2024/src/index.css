@@ -1,7 +1,7 @@
 @import url('./components/assets/fontello/css/fontello.css');
 
 body {
-  background-color: rgb(0, 78, 85);
+  background-image: url('./components/assets/background.jpg');
 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
