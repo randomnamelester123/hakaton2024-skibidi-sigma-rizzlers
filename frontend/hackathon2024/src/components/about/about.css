@@ -1,4 +1,4 @@
-.container {
+.containerAbout {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,7 +97,7 @@
     filter: brightness(0.7);
 }
 
-.container a{
+.containerAbout a{
     color: rgb(0, 96, 180);
 }
 

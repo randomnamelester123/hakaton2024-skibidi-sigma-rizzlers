@@ -4,7 +4,10 @@ import './quizSolver.css';
 function QuizSolver(props){
     return(
         <div className='container'>
-            <p>:)</p>
+            <h1>Rozwiąż skibidi quiz i znajdź swoje nowe hobby!</h1>
+            <div>
+                
+            </div>
         </div>
     );
 }

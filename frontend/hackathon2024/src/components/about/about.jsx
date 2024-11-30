@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './about.css';
-import Emoji from '../assets/cool-emoji.png';
-import Kremowka from '../assets/kremowka.jpg';
 
 function About(){
 
@@ -21,7 +19,7 @@ function About(){
 
     return(
         <>
-            <div className='container'>
+            <div className='containerAbout'>
                 <div className='image'>
                     <i className='icon-emo-laugh'></i>
                 </div>
@@ -39,7 +37,7 @@ function About(){
                 </div>
             </div>
 
-            <div className='container'>
+            <div className='containerAbout'>
                 <div className='text1'>
                     <h1>Kim jesteśmy?</h1>
                     <p>Autorzy projektu:</p>
@@ -55,7 +53,7 @@ function About(){
                 </div>
             </div>
 
-            <div className='container'>
+            <div className='containerAbout'>
                     <div style={styleYT} className='socialMedia'>
                         <a className='social' href='https://www.youtube.com' target="_blank" rel="noopener noreferrer">
                             <i className='icon-youtube-play'></i>
