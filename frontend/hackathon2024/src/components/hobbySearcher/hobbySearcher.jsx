@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './hobbySearcher.css';
+import "./hobbySearcher.css";
 import axios from "axios";
 
 class HobbySearcher extends Component {
@@ -21,9 +21,28 @@ class HobbySearcher extends Component {
   }
 
   render() {
-    const hobbiesList =
-      this.state.hobbies &&
-      this.state.hobbies.map((hobby) => {
+    const { isAlphabetical, isReverseAlphabetical } = this.props;
+
+    // Przygotowanie listy hobby
+    let hobbiesList = this.state.hobbies;
+
+    // Sortowanie na podstawie propsów
+    if (hobbiesList) {
+      if (isAlphabetical) {
+        hobbiesList = [...hobbiesList].sort((a, b) =>
+          a.name.localeCompare(b.name)
+        );
+      } else if (isReverseAlphabetical) {
+        hobbiesList = [...hobbiesList].sort((a, b) =>
+          b.name.localeCompare(a.name)
+        );
+      }
+    }
+
+    // Mapowanie na elementy JSX
+    const renderedHobbies =
+      hobbiesList &&
+      hobbiesList.map((hobby) => {
         return (
           <div className="hobby" key={hobby.id}>
             <p>{hobby.name}</p>
@@ -42,7 +61,11 @@ class HobbySearcher extends Component {
                     <ul>
                       {hobby.resources.links.map((link, index) => (
                         <li key={index}>
-                          <a href={link.url} target="_blank" rel="noopener noreferrer">
+                          <a
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             {link.label}
                           </a>
                         </li>
@@ -56,7 +79,11 @@ class HobbySearcher extends Component {
                     <ul>
                       {hobby.resources.videos.map((video, index) => (
                         <li key={index}>
-                          <a href={video.url} target="_blank" rel="noopener noreferrer">
+                          <a
+                            href={video.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             {video.title}
                           </a>
                         </li>
@@ -72,7 +99,7 @@ class HobbySearcher extends Component {
 
     return (
       <div>
-        {hobbiesList ? hobbiesList : <h1>Nie udało się wczytać bazy skibidi hobby :(</h1>}
+        {renderedHobbies ? renderedHobbies : <h1>Nie udało się wczytać bazy hobby :(</h1>}
       </div>
     );
   }
