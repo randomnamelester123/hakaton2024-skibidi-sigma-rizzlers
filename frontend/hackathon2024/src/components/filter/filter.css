@@ -1,0 +1,15 @@
+.filter button{
+    background-color: rgb(0, 150, 180);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.filter button:hover{
+    background-color: rgb(0, 76, 91);
+}
