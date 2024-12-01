@@ -33,3 +33,14 @@
 .containerForButton{
     text-align: center;
 }
+
+.quiz-image{
+    max-height: 300px;
+    border-radius: 15%;
+}
+
+.images-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

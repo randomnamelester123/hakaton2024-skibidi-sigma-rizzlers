@@ -6,6 +6,11 @@
       { "id": "A", "text": "Spacer w górach i obcowanie z naturą." },
       { "id": "B", "text": "Malowanie lub tworzenie sztuki." },
       { "id": "C", "text": "Gra w gry komputerowe lub technologia." }
+    ],
+    "images": [
+      { "url": "https://images.unsplash.com/photo-1598601065215-751bf8798a2c?q=80&w=1883&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+      { "url": "https://images.unsplash.com/photo-1615339721301-18437e4d9f74?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ]
   },
   {
@@ -60,7 +65,12 @@
       { "id": "A", "text": "Lasy i jeziora." },
       { "id": "B", "text": "Kuchnia pełna składników." },
       { "id": "C", "text": "Komputer z otwartą grą." }
-    ]
+    ],
+    "images": [
+    { "url": "https://images.unsplash.com/photo-1505842105287-2ad7097e8f5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
+    { "url": "https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
+    { "url": "https://images.unsplash.com/photo-1548686304-637b8e7c663b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+  ]
   },
   {
     "id_pytania": 8,
@@ -73,7 +83,7 @@
   },
   {
     "id_pytania": 9,
-    "text_pytania": "Czy lubisz gotować i eksperymentować w kuchni? (Obrazek)",
+    "text_pytania": "Czy lubisz gotować i eksperymentować w kuchni?",
     "answers": [
       { "id": "A", "text": "Tak, gotowanie mnie relaksuje." },
       { "id": "B", "text": "Czasami próbuję nowych rzeczy." }
@@ -108,7 +118,7 @@
   },
   {
     "id_pytania": 13,
-    "text_pytania": "Jak bardzo podoba Ci się fotografia jako sposób na wyrażanie siebie? (Obrazek)",
+    "text_pytania": "Jak bardzo podoba Ci się fotografia jako sposób na wyrażanie siebie?",
     "answers": [
       { "id": "A", "text": "Uwielbiam fotografię." },
       { "id": "B", "text": "Interesuje mnie, ale na razie jej nie próbowałem." },
@@ -117,7 +127,7 @@
   },
   {
     "id_pytania": 14,
-    "text_pytania": "Czy interesują Cię wycieczki i odkrywanie nowych miejsc? (Obrazek)",
+    "text_pytania": "Czy interesują Cię wycieczki i odkrywanie nowych miejsc?",
     "answers": [
       { "id": "A", "text": "Uwielbiam podróże i odkrywanie nowych kultur." },
       { "id": "B", "text": "Lubię czasem wybrać się w nowe miejsce." },

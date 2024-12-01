@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom"; // Importowanie hooka useNavigate
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./quizSolver.css";
 
 const QuizSolver = (props) => {
   const [questions, setQuestions] = useState(null);
   const [selectedAnswers, setSelectedAnswers] = useState({});
-  const navigate = useNavigate(); // Hook nawigacyjny
+  const navigate = useNavigate();
 
   useEffect(() => {
     axios
@@ -28,7 +28,7 @@ const QuizSolver = (props) => {
 
   const handleSubmitQuiz = () => {
     console.log("Wybrane odpowiedzi:", selectedAnswers);
-    navigate("/quiz-results"); // Przekierowanie do /quiz-results
+    navigate("/quiz-results");
   };
 
   return (
@@ -39,6 +39,19 @@ const QuizSolver = (props) => {
             <p>
               Pytanie {question.id_pytania}: {question.text_pytania}
             </p>
+            {/* Renderowanie obrazków, jeśli istnieją */}
+            {question.images && question.images.length > 0 && (
+              <div className="images-container">
+                {question.images.map((image, index) => (
+                  <img
+                    key={index}
+                    src={image.url}
+                    alt={`Obrazek do pytania ${question.id_pytania}`}
+                    className="quiz-image"
+                  />
+                ))}
+              </div>
+            )}
             <ul>
               {question.answers.map((answer) => (
                 <li key={answer.id}>
