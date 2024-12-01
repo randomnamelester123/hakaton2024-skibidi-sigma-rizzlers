@@ -28,10 +28,10 @@ function About(){
                     <p>Na naszej stronie znajdziesz dla siebie nowe hobby!</p>
                     <ul>
                         <li>
-                            <Link to='/page1'>Rozwiąż quiz</Link>
+                            <Link to='/quiz'>Rozwiąż quiz</Link>
                         </li>
                         <li>
-                            <Link to='/page1'>Wyszukaj hobby</Link>
+                            <Link to='/search'>Wyszukaj hobby</Link>
                         </li>
                     </ul>
                 </div>

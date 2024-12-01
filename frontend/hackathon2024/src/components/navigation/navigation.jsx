@@ -9,7 +9,7 @@ function Navigation() {
             <nav>
                 <Link className="link" to='/'>Strona główna</Link>
                 <Link className="link" to='/quiz'>Quiz</Link>
-                <Link className="link" to='/page1'>Wyszukiwarka</Link>
+                <Link className="link" to='/search'>Wyszukiwarka</Link>
             </nav>
         </div>
     );
