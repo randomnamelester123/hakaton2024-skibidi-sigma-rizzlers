@@ -1,0 +1,21 @@
+.rubik-glitch-regular {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Header {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px #00d5ff;
+}
+
+.Logo {
+    max-width: 90%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "rekodzielo",
+    "name": "Rękodzieło",
+    "tags": ["kreatywne", "indywidualne", "w domu"],
+    "description": "Rękodzieło to proces tworzenia unikalnych przedmiotów, takich jak dekoracje, biżuteria czy dzieła sztuki, za pomocą własnych rąk.",
+    "resources": {
+      "links": [
+        { "label": "Zainspiruj się pomysłami", "url": "https://rekodzielo.pl" },
+        { "label": "Kup materiały", "url": "https://sklephobby.pl" }
+      ],
+      "videos": [
+        { "title": "Jak zacząć tworzyć rękodzieło?", "url": "https://youtube.com/example1" }
+      ]
+    }
+  },
+  {
+    "_id": "sporty_na_swiezym_powietrzu",
+    "name": "Sporty na świeżym powietrzu",
+    "tags": ["aktywne", "grupowe", "na zewnątrz"],
+    "description": "Sporty na świeżym powietrzu to aktywności fizyczne takie jak bieganie, jazda na rowerze czy piesze wędrówki, które pozwalają połączyć ruch z kontaktem z naturą.",
+    "resources": {
+      "links": [
+        { "label": "Znajdź grupę sportową", "url": "https://sportynaswiezym.pl" },
+        { "label": "Kup sprzęt sportowy", "url": "https://sklepsportowy.pl" }
+      ],
+      "videos": [
+        { "title": "Jak przygotować się do biegania?", "url": "https://youtube.com/example2" }
+      ]
+    }
+  },
+  {
+    "_id": "gry_komputerowe_i_technologie",
+    "name": "Gry komputerowe i technologie",
+    "tags": ["technologiczne", "indywidualne", "w domu"],
+    "description": "Gry komputerowe i technologie to hobby dla osób, które lubią wirtualne światy, nowoczesne urządzenia oraz rozwijanie umiejętności technicznych.",
+    "resources": {
+      "links": [
+        { "label": "Dołącz do społeczności graczy", "url": "https://grykomputerowe.pl" },
+        { "label": "Kup najnowszy sprzęt", "url": "https://skleptechnologiczny.pl" }
+      ],
+      "videos": [
+        { "title": "Najlepsze gry w 2024 roku", "url": "https://youtube.com/example3" }
+      ]
+    }
+  },
+  {
+    "_id": "gotowanie",
+    "name": "Gotowanie",
+    "tags": ["kreatywne", "indywidualne", "w domu"],
+    "description": "Gotowanie to sztuka przygotowywania posiłków, która łączy kreatywność z praktycznymi umiejętnościami w kuchni.",
+    "resources": {
+      "links": [
+        { "label": "Znajdź przepisy", "url": "https://gotowanie.pl" },
+        { "label": "Kup składniki", "url": "https://sklepkulinarny.pl" }
+      ],
+      "videos": [
+        { "title": "10 prostych przepisów na początek", "url": "https://youtube.com/example4" }
+      ]
+    }
+  },
+  {
+    "_id": "fotografia",
+    "name": "Fotografia",
+    "tags": ["artystyczne", "indywidualne", "na zewnątrz"],
+    "description": "Fotografia to sztuka uchwycenia chwili za pomocą aparatu, pozwalająca na wyrażenie siebie i odkrywanie nowych miejsc.",
+    "resources": {
+      "links": [
+        { "label": "Dowiedz się więcej o fotografii", "url": "https://fotografia.pl" },
+        { "label": "Kup aparat fotograficzny", "url": "https://sklepfoto.pl" }
+      ],
+      "videos": [
+        { "title": "Podstawy fotografii", "url": "https://youtube.com/example5" }
+      ]
+    }
+  },
+  {
+    "_id": "podroze_i_kultury",
+    "name": "Podróże i poznawanie kultur",
+    "tags": ["eksploracyjne", "grupowe", "na zewnątrz"],
+    "description": "Podróże to odkrywanie nowych miejsc i kultur, co pozwala poszerzyć horyzonty i zdobyć niezapomniane wspomnienia.",
+    "resources": {
+      "links": [
+        { "label": "Planuj podróże", "url": "https://podroze.pl" },
+        { "label": "Znajdź miejsca do odwiedzenia", "url": "https://poznajkulture.pl" }
+      ],
+      "videos": [
+        { "title": "Jak zaplanować idealną podróż?", "url": "https://youtube.com/example6" }
+      ]
+    }
+  },
+  {
+    "_id": "praca_w_ogrodzie",
+    "name": "Praca w ogrodzie",
+    "tags": ["relaksujące", "indywidualne", "na zewnątrz"],
+    "description": "Praca w ogrodzie to zajęcie, które łączy fizyczną aktywność z możliwością obcowania z naturą i tworzeniem pięknych przestrzeni.",
+    "resources": {
+      "links": [
+        { "label": "Porady ogrodnicze", "url": "https://ogrodnictwo.pl" },
+        { "label": "Kup rośliny", "url": "https://sklepogrodniczy.pl" }
+      ],
+      "videos": [
+        { "title": "Jak dbać o ogród?", "url": "https://youtube.com/example7" }
+      ]
+    }
+  },
+  {
+    "_id": "muzyka",
+    "name": "Muzyka",
+    "tags": ["artystyczne", "indywidualne", "w domu"],
+    "description": "Muzyka to sztuka wyrażania emocji za pomocą dźwięków, od nauki gry na instrumencie po śpiew.",
+    "resources": {
+      "links": [
+        { "label": "Znajdź nauczyciela", "url": "https://naukamuzyki.pl" },
+        { "label": "Kup instrumenty", "url": "https://sklepmuzyczny.pl" }
+      ],
+      "videos": [
+        { "title": "Podstawy gry na gitarze", "url": "https://youtube.com/example8" }
+      ]
+    }
+  },
+  {
+    "_id": "sztuki_walki",
+    "name": "Sztuki walki i trening fizyczny",
+    "tags": ["aktywne", "grupowe", "na zewnątrz"],
+    "description": "Sztuki walki to połączenie aktywności fizycznej z rozwojem samodyscypliny i samoobrony.",
+    "resources": {
+      "links": [
+        { "label": "Znajdź szkołę sztuk walki", "url": "https://sztukiwalki.pl" },
+        { "label": "Kup sprzęt do treningów", "url": "https://sklepsportowy.pl" }
+      ],
+      "videos": [
+        { "title": "Podstawy karate", "url": "https://youtube.com/example9" }
+      ]
+    }
+  },
+  {
+    "_id": "literatura",
+    "name": "Literatura i pisanie",
+    "tags": ["kreatywne", "indywidualne", "w domu"],
+    "description": "Literatura i pisanie to sztuka tworzenia opowieści i wyrażania siebie poprzez słowa.",
+    "resources": {
+      "links": [
+        { "label": "Poznaj warsztaty pisarskie", "url": "https://literatura.pl" },
+        { "label": "Kup książki", "url": "https://sklepksiegarski.pl" }
+      ],
+      "videos": [
+        { "title": "Jak pisać kreatywne opowiadania?", "url": "https://youtube.com/example10" }
+      ]
+    }
+  }
+]

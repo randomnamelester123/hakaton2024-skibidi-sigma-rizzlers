@@ -1,0 +1,136 @@
+[
+  {
+    "id_pytania": 1,
+    "text_pytania": "Która z poniższych aktywności wygląda najciekawiej? (Obrazek)",
+    "answers": [
+      { "id": "A", "text": "Spacer w górach i obcowanie z naturą." },
+      { "id": "B", "text": "Malowanie lub tworzenie sztuki." },
+      { "id": "C", "text": "Gra w gry komputerowe lub technologia." }
+    ]
+  },
+  {
+    "id_pytania": 2,
+    "text_pytania": "Jak oceniasz swoje umiejętności techniczne i zainteresowanie elektroniką?",
+    "answers": [
+      { "id": "A", "text": "Nie interesuję się elektroniką." },
+      { "id": "B", "text": "Czasem eksperymentuję, ale bez większego zaangażowania." },
+      { "id": "C", "text": "Bardzo mnie to fascynuje – lubię technologię i gadżety." }
+    ]
+  },
+  {
+    "id_pytania": 3,
+    "text_pytania": "Czy lubisz tworzyć coś własnymi rękami, jak dekoracje, biżuterię czy rysunki? (Obrazek)",
+    "answers": [
+      { "id": "A", "text": "Uwielbiam – to moja ulubiona forma spędzania czasu." },
+      { "id": "B", "text": "Sporadycznie próbuję takich aktywności." },
+      { "id": "C", "text": "To kompletnie nie moje klimaty." }
+    ]
+  },
+  {
+    "id_pytania": 4,
+    "text_pytania": "Co wolisz robić w wolnym czasie?",
+    "answers": [
+      { "id": "A", "text": "Spędzać czas na świeżym powietrzu (np. spacer, rower)." },
+      { "id": "B", "text": "Tworzyć coś kreatywnego (np. gotowanie, rękodzieło)." },
+      { "id": "C", "text": "Odkrywać nowe miejsca (np. podróże, fotografia)." }
+    ]
+  },
+  {
+    "id_pytania": 5,
+    "text_pytania": "Czy interesują Cię sporty na świeżym powietrzu?",
+    "answers": [
+      { "id": "A", "text": "Raczej nie, wolę spokojne zajęcia." },
+      { "id": "B", "text": "Lubię od czasu do czasu." },
+      { "id": "C", "text": "Uwielbiam aktywność fizyczną na świeżym powietrzu!" }
+    ]
+  },
+  {
+    "id_pytania": 6,
+    "text_pytania": "Jak oceniasz swoją cierpliwość do szczegółowych zajęć, jak składanie modeli czy nauka gry na instrumencie?",
+    "answers": [
+      { "id": "A", "text": "Nie mam cierpliwości do takich rzeczy." },
+      { "id": "B", "text": "Czasami udaje mi się skupić, ale nie zawsze." },
+      { "id": "C", "text": "Bardzo lubię i jestem gotów poświęcić czas na takie hobby." }
+    ]
+  },
+  {
+    "id_pytania": 7,
+    "text_pytania": "Wybierz obrazek, który najbardziej Cię inspiruje:",
+    "answers": [
+      { "id": "A", "text": "Lasy i jeziora." },
+      { "id": "B", "text": "Kuchnia pełna składników." },
+      { "id": "C", "text": "Komputer z otwartą grą." }
+    ]
+  },
+  {
+    "id_pytania": 8,
+    "text_pytania": "Jak ważny jest dla Ciebie kontakt z naturą?",
+    "answers": [
+      { "id": "A", "text": "Jest dla mnie mało istotny." },
+      { "id": "B", "text": "Doceniam go, ale nie poświęcam mu zbyt wiele czasu." },
+      { "id": "C", "text": "Natura jest dla mnie kluczowa – lubię spędzać w niej czas." }
+    ]
+  },
+  {
+    "id_pytania": 9,
+    "text_pytania": "Czy lubisz gotować i eksperymentować w kuchni? (Obrazek)",
+    "answers": [
+      { "id": "A", "text": "Tak, gotowanie mnie relaksuje." },
+      { "id": "B", "text": "Czasami próbuję nowych rzeczy." }
+    ]
+  },
+  {
+    "id_pytania": 10,
+    "text_pytania": "Jak bardzo interesują Cię gry komputerowe i technologie?",
+    "answers": [
+      { "id": "A", "text": "Nie przepadam za takimi aktywnościami." },
+      { "id": "B", "text": "Lubię od czasu do czasu, ale nie jestem pasjonatem." },
+      { "id": "C", "text": "To moja pasja – uwielbiam gry i technologie." }
+    ]
+  },
+  {
+    "id_pytania": 11,
+    "text_pytania": "Czy wolisz aktywności grupowe czy indywidualne?",
+    "answers": [
+      { "id": "A", "text": "Wolę działać samodzielnie – to mnie relaksuje." },
+      { "id": "B", "text": "Wszystko zależy od sytuacji i mojego nastroju." },
+      { "id": "C", "text": "Zdecydowanie preferuję aktywności w grupie – lubię towarzystwo." }
+    ]
+  },
+  {
+    "id_pytania": 12,
+    "text_pytania": "Czy chciałbyś nauczyć się nowej umiejętności artystycznej, np. malowania lub gry na instrumencie?",
+    "answers": [
+      { "id": "A", "text": "Nie jestem zainteresowany takimi zajęciami." },
+      { "id": "B", "text": "Byłoby to ciekawe, ale nie jestem pewien, czy mam na to czas." },
+      { "id": "C", "text": "Bardzo bym chciał, to brzmi inspirująco." }
+    ]
+  },
+  {
+    "id_pytania": 13,
+    "text_pytania": "Jak bardzo podoba Ci się fotografia jako sposób na wyrażanie siebie? (Obrazek)",
+    "answers": [
+      { "id": "A", "text": "Uwielbiam fotografię." },
+      { "id": "B", "text": "Interesuje mnie, ale na razie jej nie próbowałem." },
+      { "id": "C", "text": "To nie dla mnie." }
+    ]
+  },
+  {
+    "id_pytania": 14,
+    "text_pytania": "Czy interesują Cię wycieczki i odkrywanie nowych miejsc? (Obrazek)",
+    "answers": [
+      { "id": "A", "text": "Uwielbiam podróże i odkrywanie nowych kultur." },
+      { "id": "B", "text": "Lubię czasem wybrać się w nowe miejsce." },
+      { "id": "C", "text": "Wolę zostawać w znanych mi miejscach." }
+    ]
+  },
+  {
+    "id_pytania": 15,
+    "text_pytania": "Jak bardzo interesuje Cię nauka o roślinach, ogrodnictwo lub praca w ogrodzie?",
+    "answers": [
+      { "id": "A", "text": "Nie jestem tym zainteresowany – to nie dla mnie." },
+      { "id": "B", "text": "Czasem myślę, że mogłoby to być ciekawe, ale nie próbowałem/am." },
+      { "id": "C", "text": "Bardzo mnie to fascynuje – uwielbiam zajmować się roślinami." }
+    ]
+  }
+]
